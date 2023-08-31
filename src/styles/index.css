@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*own tailwind classes go here */
+@layer components {
+  .classExample {
+    @apply py-1;
+  }
+}
+
+:root {
+  --red: red;
+}
+
+/* Example class */
+.red {
+  color: var(--red);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* DESKTOP DESIGN */
+@media only screen and (min-width: 800px) {
+}
