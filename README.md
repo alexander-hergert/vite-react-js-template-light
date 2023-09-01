@@ -55,6 +55,10 @@ This is the setup I use for small React projects in JavaScript
 
 - Loader.jsx a Styled-Component which you can use to represent fetching animation.
 
+#### Footer
+
+- Footer.jsx a footer component for Frontend Mentor. (Change your name there or styles or delete)
+
 #### Example Test
 
 - components/Example/Counter.jsx
