@@ -47,6 +47,14 @@ This is the setup I use for small React projects in JavaScript
 
 - utility.js currently has (saveDataToLocalStorage, loadDataFromLocalStorage) functions
 
+#### animations
+
+- animations.js has prepared animations for framer library for react animations.
+
+#### App data
+
+- data.js holding static data for the web app
+
 #### customHooks
 
 - FetchData.jsx
