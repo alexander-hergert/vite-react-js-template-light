@@ -1,3 +1,10 @@
+import axios from "axios";
+
+//Fetch function example
+export const customFetch = axios.create({
+  baseURL: "http://localhost:5000/api/tasks",
+});
+
 // Function to save data to localStorage
 export function saveDataToLocalStorage(key, data) {
   try {

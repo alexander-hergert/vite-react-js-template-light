@@ -22,6 +22,10 @@ This is the setup I use for small React projects in JavaScript
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) is a user-centric testing library that encourages testing your React components as users would interact with them.
 - [Jest](https://jestjs.io/docs/getting-started) is a JavaScript testing framework that provides a simple and powerful toolset for testing JavaScript applications, including React components, with built-in test runners and assertions.
 
+### React Query for fetch operations
+
+-[React Query](https://tanstack.com/query/v3/docs/react/overview) React Query is a popular JavaScript library for managing and caching asynchronous data in React applications. It simplifies data fetching, caching, and synchronization with the UI, making it easier to build fast and responsive web applications.
+
 ### Files
 
 ### images
@@ -43,9 +47,9 @@ This is the setup I use for small React projects in JavaScript
 - Prepared useReducer in the context.jsx (Organize your logic using a reducer to change the state. Make immutable changes!)
 - reducer.js with very simple template for the logic
 
-#### utility functions
+#### utils functions
 
-- utility.js currently has (saveDataToLocalStorage, loadDataFromLocalStorage) functions
+- utils.js currently has (customFetch, saveDataToLocalStorage, loadDataFromLocalStorage) functions.
 
 #### animations
 
@@ -57,7 +61,8 @@ This is the setup I use for small React projects in JavaScript
 
 #### customHooks
 
-- FetchData.jsx
+- useFetchData.jsx
+- reactQueryCustomHooks.jsx for examples
 
 #### Loader
 
@@ -66,6 +71,10 @@ This is the setup I use for small React projects in JavaScript
 #### Footer
 
 - Footer.jsx a footer component for Frontend Mentor. (Change your name there or styles or delete)
+
+#### React Query Example components
+
+- ExampleReactQuery.jsx
 
 #### Example Test
 
